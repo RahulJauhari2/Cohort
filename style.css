@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #f7f7f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mood-options{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 20px;
+
+}
+
+.mood-button{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    font-size: 50px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor:pointer;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.mood-button:hover {
+    border-color: #007bff;        
+    transform: scale(1.2);
+    
+}
+
+.mood-button.happy {
+    background-color: #fce5cd;
+}
+
+.mood-button.sad {
+    background-color: #cfe2f3;
+}
+
+.mood-button.neutral {
+    background-color: #f7f7f7;
+}
+
+.mood-button.excited {
+    background-color: #ffebcc;
+}

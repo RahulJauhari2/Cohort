@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mood-container">
+        <h2>Select Your Mood</h2>
+        <div class="mood-options">
+            <button class="mood-button happy" onclick="saveMood('😊')">😊</button>
+            <button class="mood-button sad" onclick="saveMood('😢')">😢</button>
+            <button class="mood-button neutral" onclick="saveMood('😐')">😐</button>
+            <button class="mood-button excited" onclick="saveMood('🤩')">🤩</button>
+
+        </div>
+        <div class="timeline-container">
+            <h2>Timeline</h2>
+            <div id="timeline" class="timeline-view"></div>
+        </div>
+        <div id="calendar" class="calendar-container"></div>
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
