@@ -6,6 +6,11 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.mood-container{
+    width: 600px;
+    height: 100%;
+    padding: 50px;
+}
 .mood-options{
     display: flex;
     align-items: center;
@@ -46,4 +51,18 @@
 
 .mood-button.excited {
     background-color: #ffebcc;
+}
+
+.timeline-container{
+    padding: 20px;
+}
+
+.timeline-container h2{
+    font-size: 30px;
+    padding: 50px 0 20px 0;
+}
+
+.timeline-view{
+    font-size: 30px;
+    
 }
